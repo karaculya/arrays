@@ -11,7 +11,7 @@ public class Main {
 
         for(int i = 0; i < n; ++i) {
             Random random = new Random();
-            a[i] = random.nextInt(100);
+            a[i] = random.nextInt(10);
         }
 
         return a;
